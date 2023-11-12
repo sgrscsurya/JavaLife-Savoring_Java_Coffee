@@ -1,1 +1,714 @@
+import java.util.*;
 
+public class Main
+{
+public static void main(String[] args)
+{
+   System.out.println("\n\n\t\t *********************** STAR WORLD ***********************");
+   while(true)
+   {
+   System.out.println("----------------------------------------------------------------------------------------------");
+   System.out.println("  LIMITATIONS! : 1). The Name/Sentence will be printed Vertically.");
+   System.out.println("                 2). It is Recommended Not to Use Symbols other than Space \" \".");
+   System.out.println("                 3). This Program is an Infinity Run, Until you want to Exit.");
+   System.out.println("                     To Exit the Program, The Secret Code is \"MONEY\" ( Use Symbol ).");
+   
+System.out.print("\n---> ENTER A NAME TO BE PRINTED :) :  ");
+Scanner sc=new Scanner(System.in);
+String name=sc.nextLine();
+        for (char c : name.toCharArray())
+        {
+            switch (c)
+            {
+                case 'a':
+                case 'A':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i == 1 || i == 3||j == 1||j == 5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'b':
+                case 'B':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j == 1 || i==1 && j==2||i==1&&j==3||i==1&&j==4||i==2&&j==5||i==3&&j==2||i==3&&j==3||i==3&&j==4||i==4&&j==5||i==5&&j==2||i==5&&j==3||i==5&&j==4)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'c':
+                case 'C':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j == 1 || i==1||i==5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'd':
+                case 'D':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j == 1 || i==1&&j==2||i==1&&j==3||i==2&&j==4||i==3&&j==5||i==4&&j==4||i==5&&j==2||i==5&&j==3)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'e':
+                case 'E':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j == 1 ||i==1||i==3||i==5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'f':
+                case 'F':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j == 1 || i==1||i==3)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'g':
+                case 'G':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j == 1 || i==1||i==5&&j==2||i==5&&j==3||i==4&&j==3||i==3&&j==3||i==3&&j==4||i==3&&j==5||i==4&&j==5||i==5&&j==5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'h':
+                case 'H':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j == 1 || i == 3||j == 5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'i':
+                case 'I':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1 || i == 5||j==3)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'j':
+                case 'J':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i ==1 || i==2&&j==3||i==4&&j==3||i==3&&j==3||i==5&&j==2||i==4&&j==1)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'k':
+                case 'K':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==2&&j==1||i==5&&j==1||j==2 || i==1&&j==5||i==2&&j==4||i==3&&j==3||i==4&&j==4||i==5&&j==5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'l':
+                case 'L':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==5 || j== 1)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'm':
+                case 'M':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j==1 ||j == 5||i==2&&j==2||i==3&&j==3||i==2&&j==4)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'n':
+                case 'N':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j==1 ||j == 5||i==j)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'o':
+                case 'O':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i == 1 ||i==5||j==1|| j == 5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'p':
+                case 'P':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1 && j==2||i==1&&j==3||i==1&&j==4||i==2&&j==5||i==3&&j==2||i==3&&j==3||i==3&&j==4|| j == 1)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'q':
+                case 'Q':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1&&j==1||i==1&&j==2||i==1&&j==3||i==1&&j==4||i==2&&j==1||i==3&&j==1||i==4&&j==1||i==2&&j==4||i==3&&j==4||i==4&&j==4||i==4&&j==2||i==4&&j==3||i==3&&j==3||i==5&&j==5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'r':
+                case 'R':
+                 System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1 && j==2||i==1&&j==3||i==1&&j==4||i==2&&j==5||i==3&&j==2||i==3&&j==3||i==3&&j==4|| j == 1||i==4&&j==3||i==5&&j==5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 's':
+                case 'S':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1&&j==2||i==1&&j==3||i==1&&j==4||i==1&&j==5||i==2&&j==1||i==3&&j==2||i==3&&j==3||i==3&&j==4||i==4&&j==5||i==5&&j==4||i==5&&j==4||i==5&&j==3||i==5&&j==2||i==5&&j==1 )
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 't':
+                case 'T':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1||j==3)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'u':
+                case 'U':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j==1||i==5||j==5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'v':
+                case 'V':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1&&j==1||i==2&&j==1||i==3&&j==1||i==1&&j==5||i==2&&j==5||i==3&&j==5||i==4&&j==2||i==4&&j==4||i==5&&j==3)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'w':
+                case 'W':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (j ==1 || j == 5||i==4&&j==2||i==3&&j==3||i==4&&j==4)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'x':
+                case 'X':
+                    System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i == j || i + j == 6)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'y':
+                case 'Y':
+                    System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1 && j==1||i==2 && j==2||i==3 && j==3||i==2 && j==4||i==1 && j==5||i==4 && j==3||i==5 && j==3)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case 'z':
+                case 'Z':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1||i==5||i+j==6)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '1':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==5||j==3||i==2&&j==2||i==1&&j==3)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '2':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==2&&j==1||i==1&&j==2||i==1&&j==3||i==2&&j==4||i==3&&j==3||i==4&&j==2||i==5)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '3':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==2&&j==1||i==1&&j==2||i==1&&j==4||i==5&&j==4||i==1&&j==3||i==2&&j==5||i==3&&j==4||i==4&&j==5||i==5&&j==3||i==5&&j==2||i==4&&j==1)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '4':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==3||j==3||i==2&&j==2)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '5':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1||i==2&&j==1||i==3&&j==1||i==3&&j==2||i==3&&j==3||i==4&&j==5||i==3&&j==4||i==5&&j==4||i==5&&j==3||i==5&&j==2||i==5&&j==1)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '6':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==3&&j==1||i==3&&j==2||i==3&&j==3||i==3&&j==4||i==5&&j==2||i==5&&j==3||i==5&&j==4||i==4&&j==5||i==1&&j==2||i==1&&j==3||i==1&&j==4||i==2&&j==1||i==4&&j==1)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '7':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1||i+j==6)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '8':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==3&&j==2||i==3&&j==3||i==3&&j==4||i==5&&j==2||i==5&&j==3||i==5&&j==4||i==4&&j==5||i==1&&j==2||i==1&&j==3||i==1&&j==4||i==2&&j==5||i==2&&j==1||i==4&&j==1)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '9':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1&&j==2||i==1&&j==3||i==1&&j==4||i==2&&j==1||i==2&&j==5||i==3&&j==2||i==3&&j==3||i==3&&j==4||i==3&&j==5||i==4&&j==5||i==5&&j==2||i==5&&j==3||i==5&&j==4)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case '0':
+                System.out.println("\n");
+                    for (int i = 1; i <= 5; i++)
+                    {
+                        for (int j = 1; j <= 5; j++)
+                        {
+                            if (i==1&&j==2||i==1&&j==3||i==1&&j==4||i==2&&j==1||i==2&&j==5||i==3&&j==1||i==3&&j==5||i==4&&j==1||i==4&&j==5||i==5&&j==2||i==5&&j==3||i==5&&j==4)
+                            {
+                                System.out.print("*");
+                            }
+                            else
+                            {
+                                System.out.print(" ");
+                            }
+                        }
+                        System.out.println();
+                    }
+                    break;
+                case ' ':
+                System.out.println("\n\n");
+                System.out.println();
+                break;
+                case '$':
+                System.out.println("\n");
+                System.out.println(" \"THANK YOU! VISIT AGAIN :)\" ");
+                sc.close();
+                System.exit(0);
+                break;
+                default:
+                    System.out.println("\n");
+                    System.out.println("SORRY! WE DON'T HAVE THIS CHARACTER IN OUR LIST : " + c);
+            }
+        }
+    }
+}
+}
